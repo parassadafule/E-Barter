@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #FFF2E0;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    color: #3d3122;
+}
+
+.main{
+    filter: blur(0px);
+}
+
+section {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    color: #3d3122;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"],
+input[type="date"],
+input[type="submit"] {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #FA4637;
+    color: #3d3122;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.thanks {
+    display: none;
+    position: fixed;
+    width: 50%;
+    height: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .thanks-content {
+    text-align: center;
+  }
+  
+  .thanks h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .thanks p {
+    color: #666;
+  }
