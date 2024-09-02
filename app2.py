@@ -45,6 +45,8 @@ def webhook():
     else:
         return jsonify({"fulfillmentText": "Sorry, I didn't understand that intent."})
 
+return render_template('index.html')
+
 # Function to get case pendency data for a district court
 def case_pendency_data_dist(dist):
     if dist in state_data:
